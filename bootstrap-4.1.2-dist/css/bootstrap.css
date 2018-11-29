@@ -55,10 +55,10 @@ html {
 }
 
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
-  display: block;
+  display: block;s
 }
 
-body {
+body { 
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 1rem;
@@ -66,7 +66,7 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #fff;
+  background-color: #1F2833;
 }
 
 [tabindex="-1"]:focus {
@@ -87,6 +87,7 @@ h1, h2, h3, h4, h5, h6 {
 p {
   margin-top: 0;
   margin-bottom: 1rem;
+  color: #C5C6C7;
 }
 
 abbr[title],
@@ -138,6 +139,7 @@ dfn {
 b,
 strong {
   font-weight: bolder;
+  color: #66FCF1;
 }
 
 small {
@@ -160,15 +162,15 @@ sup {
   top: -.5em;
 }
 
-a {
-  color: #007bff;
+a { 
+  color: #66FCF1;
   text-decoration: none;
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
 }
 
 a:hover {
-  color: #0056b3;
+  color: #66FCF1;
   text-decoration: underline;
 }
 
@@ -365,7 +367,7 @@ h1, h2, h3, h4, h5, h6,
   font-family: inherit;
   font-weight: 500;
   line-height: 1.2;
-  color: inherit;
+  color: #66FCF1 ;
 }
 
 h1, .h1 {
@@ -618,6 +620,7 @@ pre code {
   min-height: 1px;
   padding-right: 15px;
   padding-left: 15px;
+  background-color: #1F2833; /* beepbeep */
 }
 
 .col {
@@ -4378,7 +4381,7 @@ input[type="button"].btn-block {
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: #fff;
+  background-color: transparent;
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
@@ -4882,7 +4885,7 @@ input[type="button"].btn-block {
 .jumbotron {
   padding: 2rem 1rem;
   margin-bottom: 2rem;
-  background-color: #e9ecef;
+  background-color: #1F2833;
   border-radius: 0.3rem;
 }
 
