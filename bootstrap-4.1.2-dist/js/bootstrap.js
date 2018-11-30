@@ -21,6 +21,7 @@
       Object.defineProperty(target, descriptor.key, descriptor);
     }
   }
+  
 
   function _createClass(Constructor, protoProps, staticProps) {
     if (protoProps) _defineProperties(Constructor.prototype, protoProps);

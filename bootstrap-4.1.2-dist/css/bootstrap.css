@@ -55,8 +55,9 @@ html {
 }
 
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
-  display: block;s
+  display: block;
 }
+
 
 body { 
   margin: 0;
@@ -163,7 +164,7 @@ sup {
 }
 
 a { 
-  color: #66FCF1;
+  color: #45A29E;
   text-decoration: none;
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
