@@ -1,21 +1,31 @@
 <!DOCTYPE html>
 <html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
     <head>
         <title>About Me - Anurag Gupta's Portfolio</title>
     </head>
     <body>
-        <div class="container sticky-top bg-dark"> <!-- makes the nav bar a different color and makes it stick to the top of the page -->
+        <div class="container sticky-top bg-blue nav-pills"> <!-- makes the nav bar a different color and makes it stick to the top of the page -->
             <nav class="nav nav-pills nav-fill">
                 <a class="nav-item nav-link" href="index.html">Home</a>
                 <a class="nav-item nav-link" href="Gupta_AboutMe.html">About Me</a>
                 <a class="nav-item nav-link" href="Gupta_Resume.html">Resume</a>
-                <a class="nav-item nav-link" href="Gupta_Projects.html">Projects</a>
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects</button>
+                        <div class="dropdown-menu" aria-labelledby="Projects">
+                            <a class="dropdown-item" href="Gupta_ImageManipulation">Image Manipulation</a>
+                            <a class="dropdown-item" href="Gupta_Hangman">Hangman</a>
+                            <a class="dropdown-item" href="Gupta_9BallPool">9 Ball Pool</a>
+                            <a class="dropdown-item" href="Gupta_Labyrinth">The Labyrinth</a>
+                        </div>
+                    </div>
                 <a class="nav-item nav-link" href="Gupta_ContactMe.html">Contact Me</a>
             </nav>
         </div>
         <link href="bootstrap-4.1.2-dist/css/bootstrap.css" rel="stylesheet" type="text/css"> 
         <div class="jumbotron text-center">
-            <h1><strong>Online Portfolio</strong></h1>
+            <h1><strong>About Me</strong></h1>
             <h2>Anurag Gupta</h2>
         </div>
         <section class="main">
@@ -41,14 +51,14 @@
                         tennis in the 8th grade. Some of my hobbies include playing basketball, playing the 
                         guitar, and playing video games. This shows that I am a multipotentialite , because 
                         I have many different skills and interests. Some engineering skills that I possess are being able 
-                        to code HyperText Markup Language (HTML) and Cascading Style Sheets (CSS) proficiently,
-                        and I can also code basic Bootstrap, Python and I know how to use Git.
+                        to code Python, HyperText Markup Language (HTML) and Cascading Style Sheets (CSS) proficiently,
+                        and I can also code basic SQL and JavaScript.
                         </p>
                     </div>
                 </div>
             </div>
         </section>
-        <footer class="jumbotron">
+        <footer class="jumbotron footer mt-auto py-3">
             <footer class="container">
                  <a href="mailto:gupta8294@mydusd.org">
                     <img src="Images/email_icon.png" alt="Picture of Gmail Logo" height="100px" width="100px" hspace="50px" wspace="50px"/>

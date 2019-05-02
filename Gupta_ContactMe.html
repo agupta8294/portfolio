@@ -1,21 +1,32 @@
 <!DOCTYPE html>
 <html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
     <head>
         <title>Contact - Anurag Gupta's Portfolio</title>
     </head>
     <body>
-        <div class="container sticky-top bg-dark">
+        <div class="container sticky-top bg-blue nav-pills">
             <nav class="nav nav-pills nav-fill">
                 <a class="nav-item nav-link" href="index.html">Home</a>
                 <a class="nav-item nav-link" href="Gupta_AboutMe.html">About Me</a>
                 <a class="nav-item nav-link" href="Gupta_Resume.html">Resume</a>
-                <a class="nav-item nav-link" href="Gupta_Projects.html">Projects</a>
+                <div class="nav-item dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects</button>
+                    <ul class="dropdown-menu" aria-labelledby="Projects">
+                        <li><a class="dropdown-item" href="Gupta_ImgManipulation">Image Manipulation</a></li>
+                        <li><a class="dropdown-item" href="Gupta_9BallPool">9 Ball pool</a></li>
+                        <li><a class="dropdown-item" href="Gupta_Labyrinth">The Labyrinth</a></li>
+                        <li><a class="dropdown-item" href="Gupta_Hangman">Hangman</a></li>
+                        <div class="dropdown-divider"></div>
+                    </ul>
+                </div>
                 <a class="nav-item nav-link" href="Gupta_ContactMe.html">Contact Me</a>
             </nav>
         </div>
         <link href="bootstrap-4.1.2-dist/css/bootstrap.css" rel="stylesheet" type="text/css"> 
         <div class="jumbotron text-center">
-            <h1><strong>Online Portfolio</strong></h1>
+            <h1><strong>Contact</strong></h1>
             <h2>Anurag Gupta</h2>
         </div>
         <section class="main">

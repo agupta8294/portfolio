@@ -1,54 +1,40 @@
 <!DOCTYPE html>
 <html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
     <head>
         <title>Resume - Anurag Gupta's Portfolio</title>
     </head>
     <body>
-        <div class="container sticky-top bg-dark">
+        <div class="container sticky-top bg-blue nav-pills">
             <nav class="nav nav-pills nav-fill">
                 <a class="nav-item nav-link" href="index.html">Home</a>
                 <a class="nav-item nav-link" href="Gupta_AboutMe.html">About Me</a>
                 <a class="nav-item nav-link" href="Gupta_Resume.html">Resume</a>
-                <a class="nav-item nav-link" href="Gupta_Projects.html">Projects</a>
+                <div class="nav-item dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects</button>                    <ul class="dropdown-menu" aria-labelledby="Projects">
+                        <li><a class="dropdown-item" href="Gupta_ImgManipulation">Image Manipulation</a></li>
+                        <li><a class="dropdown-item" href="Gupta_9BallPool">9 Ball pool</a></li>
+                        <li><a class="dropdown-item" href="Gupta_Labyrinth">The Labyrinth</a></li>
+                        <li><a class="dropdown-item" href="Gupta_Hangman">Hangman</a></li>
+                        <div class="dropdown-divider"></div>
+                    </ul>
+                </div>
                 <a class="nav-item nav-link" href="Gupta_ContactMe.html">Contact Me</a>
             </nav>
         </div>
         <link href="bootstrap-4.1.2-dist/css/bootstrap.css" rel="stylesheet" type="text/css"> 
         <div class="jumbotron text-center">
-            <h1><strong>Online Portfolio</strong></h1>
+            <h1><strong>Resume</strong></h1>
             <h2>Anurag Gupta</h2>
         </div>
         <section class="main">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-8">
-                        <h2><strong>Education</strong></h2>
-                        <h4>High School</h4>
-                        <p>Dublin High School, 2018-Current</p>
-                        <p>Dublin, CA</p>
-                        <h4>Relevant Coursework</h4>
-                        <p>Computer Science Principle, 2018-2019</p>
-                        <h4>Colleges of Interest</h4>
-                        <p>University of California Berkeley, Engineering</p>
-                        <!-- <p>UCLA/Stanford, buissness or engineering?</p> -->
-                        <p>Stanford, Computer Science</p>
-                    </div>
-                    <div class="col-md-8">
-                        <h2><strong>Skills (Languages/Certifications)</strong></h2>
-                        <p>Fluent in English</p>
-                        <p>Basic understanding of Spanish</p>
-                        <p>Certificate of completion of Fallon Engineering Lab</p>
-                        <p>Certificate of completion of Toastmasters Youth Leadership Program</p>
-
-                        <h2><strong>Academic Highlights & Awards</strong></h2>
-                        <p>Honor Roll in 8th grade three times</p>
-                        <p>3rd place School team K-8 in CalChess State Scholastic chess tournament</p>
-    
-                        <h2><strong>Extracurricular Activities (Hobbies/Interests)</strong></h2>
-                        <p>Was in middle school Chess Club for three years</p>
-                        <p>Played basketball for team in 8th grade</p>
-                        <p></p>
-                    </div>
+                    <div class="embed-responsive embed-responsive-16by9">
+                      <iframe class="embed-responsive-item" 
+                      src="https://docs.google.com/document/d/1kFJJz3ccssF5e-xyXYxGDKqjrF8GpBWRKSfeWt_GrKU/edit?usp=sharing">
+                      </iframe>
                     </div>
                 </div>
             </div>
