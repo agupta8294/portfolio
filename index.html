@@ -13,31 +13,34 @@
                 <a class="nav-item nav-link" href="Gupta_AboutMe.html">About Me</a>
                 <a class="nav-item nav-link" href="Gupta_Resume.html">Resume</a>
                 <div class="nav-item dropdown">
-                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects</button>
-                    <ul class="dropdown-menu" aria-labelledby="Projects">
-                        <li><a class="dropdown-item" href="Gupta_ImgManipulation">Image Manipulation</a></li>
-                        <li><a class="dropdown-item" href="Gupta_9BallPool">9 Ball pool</a></li>
-                        <li><a class="dropdown-item" href="Gupta_Labyrinth">The Labyrinth</a></li>
-                        <li><a class="dropdown-item" href="Gupta_Hangman">Hangman</a></li>
-                        <div class="dropdown-divider"></div>
-                    </ul>
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Project</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="Gupta_ImgManipulation">Image Manipulation</a>
+                        <a class="dropdown-item" href="Gupta_9BallPool">9 Ball pool</a>
+                        <a class="dropdown-item" href="Gupta_Labyrinth">The Labyrinth</a
+                        <a class="dropdown-item" href="Gupta_TextAdventure">Text Adventure</a> 
+                    </div>
                 </div>
                 <a class="nav-item nav-link" href="Gupta_ContactMe.html">Contact Me</a> 
             </nav>
-        </div>
+        </div> 
         <link href="bootstrap-4.1.2-dist/css/bootstrap.css" rel="stylesheet" type="text/css"> 
-        <section class="jumbotron">
-            <div class="container">
-                <div class="col-md-12 px-0">
-                    <div>
-                        <img class="centered" src="Images/beachpic.png" style="width:125%;height:325%"> 
-                        <div class="centered"><strong>Anurag's Online Engineering Portfolio</strong></div>
+        <div class="bd-example">
+            <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="Images/clouds.jpg" class="d-block w-100" alt="Picture of Sunset">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h1 class="centered">Welcome to Anurag's Online Portfolio!</h1>
+                            <p>To learn more about me, click <a href="Gupta_AboutMe.html">here.</a></p>
+                        </div>
                     </div>
-                    <p class="lead my-3">Hello! My name is Anurag Gupta. To learn more about me, click below.</p>
-                    <a href="Gupta_AboutMe.html">Continue Reading</a>
                 </div>
             </div>
-        </section>
+        </div>
+        <br>
+        <br>
+        <br>
         <section>
         <div class="container">
             <div class="row">
@@ -45,10 +48,10 @@
                     <div class="card flex-md-row">
                         <div class="card-body">
                             <strong>Projects</strong>
-                            <h4 class="card-title">Image Maniputlation</h4>
+                            <h4 class="card-title">Image Manipulation</h4>
                             <h5>CSP</h5>
                             <p class="card-text">This project was developed by Anurag Gupta and Micheal Ng and was created using Python 2.7.6.</p>
-                            <a href="Gupta_ImageManipulation.html">Continue Reading</a>
+                            <a href="Gupta_ImgManipulation.html">Continue Reading</a>
                         </div>
                         <img class="card-img-right" src="Images/basketball.png" alt="Picture of Manipulated Basketball" style="max-width:250px; max-height:250px">
                     </div>
@@ -57,15 +60,17 @@
                     <div class="card flex-md-row">
                         <div class="card-body">
                             <strong>Projects</strong>
-                            <h4 class="card-title">Hangman</h4>
+                            <h4 class="card-title">Text Adventure</h4>
                             <h5>CSP</h5>
                             <p class="card-text">This project was produced by Anurag Gupta and Vedant Agrawal and was made using Python 2.7.6.</p>
                             <a href="Gupta_Projects.html">Continue Reading</a>
                         </div>
-                        <img class="card-img-right" src="Images/hangman.png" alt="Picture of Hangman" style="max-width:250px; max-height:250px">
+                        <img class="card-img-right" src="Images/TextAdventure.png" alt="Picture of TextAdventure" style="max-width:250px; max-height:250px">
                     </div>
                 </div>
             </div>
+            <br>
+            <br>
             <div class="row">
                 <div class="col-md-6">
                     <div class="card flex-md-row">
@@ -105,7 +110,7 @@
                  height="120px" width="120px" hspace=50px wspace="50px">
                  </a>
                 <a href="https://www.dublin.k12.ca.us/dhs">
-                    <img src="Images/dhslogo.png" alt="Picture of Dublin High school Icon" 
+                    <img src="Images/dhslogo.png" alt="Picture of Dublin High School Icon" 
                  class="float-right" height="100px" width=100px hspace="50px">
                  </a>
             </footer>

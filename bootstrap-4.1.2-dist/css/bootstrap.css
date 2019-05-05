@@ -189,13 +189,13 @@ a:not([href]):not([tabindex]):focus {
 /* Centered text */
 .centered {
   position: absolute;
-  top: 50%;
+  top: -800%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: #FFFFFF;
-  text-decoration: underline;
-  font-family: "Helvetica Neue";
-  font-size: 35px;
+  text-decoration: none;
+  font-family: "Courier New";
+  font-size: 60px;
   
 }
 
@@ -561,10 +561,20 @@ pre code {
 
 .container {
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 1px;
+  padding-left: 1px;
   margin-right: auto;
   margin-left: auto;
+  position: relative;
+  max-width: 300px;
+}
+
+* {box-sizing: border-box}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 @media (min-width: 576px) {
@@ -4608,6 +4618,26 @@ input[type="button"].btn-block {
 
 .card-columns .card {
   margin-bottom: 0.75rem;
+}
+
+/* The overlay effect - lays on top of the container and over the image */
+.overlay {
+  position: absolute; 
+  bottom: -100; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+}
+
+/* When you mouse over the container, fade in the overlay title */
+.container:hover .overlay {
+  opacity: 1;
 }
 
 @media (min-width: 576px) {
